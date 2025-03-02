@@ -59,18 +59,29 @@ public static void main (String...args){
 	 int winner = playerWon(total);
 
 
- 
+ System.out.println("=====================================================");
+System.out.print("players	  ");
+for (int column =1; column < result.length; column++){
+	System.out.print("chance" + column + "    ");
+	
+
+}
+System.out.print("TOT");
+System.out.print("\n=========================================================");
+System.out.println();
+
 	for(int rows = 0; rows < result.length; rows++  ){
-	System.out.print("player   " + (rows + 1)+ "	");
+	System.out.print("player " + (rows + 1)+ "   ");
 		for(int column = 0; column < result[rows].length; column++ ){
 
-System.out.print(result[rows][column] + "	");
+System.out.print(result[rows][column] + "          ");
+
 }
 System.out.println(total[rows]);
 
 }
 
-System.out.println((winner + 1));
+System.out.println("player:" + (winner + 1) + " won");
 
 
 
