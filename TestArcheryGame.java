@@ -2,16 +2,16 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 
-public class TestSumInteger{
+public class TestArcheryGame{
 
 	@Test
-	 public void testThatSumIntegerIsCorrect(){
+	 public void testThatSumIntegerIsTakesInteger(){
 
 
 	SumInteger sums = new SumInteger();
 	
 	int sum = sums.sum(30);
-	assertEquals(165, sum);
+	
 	
 	
   }

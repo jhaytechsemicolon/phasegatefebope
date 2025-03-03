@@ -1,6 +1,7 @@
 public class Asterix{
 public static void main(String...args){
-	
+
+System.out.println("(a)        " + "(b)          " + "(c)        " + "(d)        ");	
 for (int count = 1; count <= 10; count++ ){
 	for(int counter = 1; counter <= count; counter++){
 		System.out.print("*");
